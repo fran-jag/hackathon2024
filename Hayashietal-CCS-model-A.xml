@@ -1,26 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Created by COPASI version 4.44 (Build 295) on 2024-08-29 11:30 with libSBML version 5.20.0. -->
+<!-- Created by COPASI version 4.44 (Build 295) on 2024-08-29 11:52 with libSBML version 5.20.0. -->
 <sbml xmlns="http://www.sbml.org/sbml/level2/version4" level="2" version="4">
   <model metaid="COPASI1" id="Model_1" name="Model A - A systems biology approach to suppress TNF-induced proinflammatory gene expressions">
     <annotation>
       <copasi:COPASI xmlns:copasi="http://www.copasi.org/static/sbml">
-        <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#">
+        <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#">
           <rdf:Description rdf:about="#COPASI1">
-            <bqmodel:hasInstance>
-              <rdf:Bag>
-                <rdf:li rdf:resource="http://identifiers.org/efo/0004040"/>
-                <rdf:li rdf:resource="http://identifiers.org/kegg.pathway/nt06516"/>
-                <rdf:li rdf:resource="http://identifiers.org/mamo/MAMO_0000045"/>
-                <rdf:li rdf:resource="http://identifiers.org/omit/0016968"/>
-              </rdf:Bag>
-            </bqmodel:hasInstance>
             <dcterms:bibliographicCitation>
               <rdf:Bag>
-                <rdf:li>
-                  <rdf:Description>
-                    <bqbiol:isDescribedBy rdf:resource="http://identifiers.org/mamo/MAMO_0000045"/>
-                  </rdf:Description>
-                </rdf:li>
                 <rdf:li>
                   <rdf:Description>
                     <CopasiMT:isDescribedBy rdf:resource="http://identifiers.org/pubmed/24199619"/>
@@ -43,6 +30,21 @@
                         <vCard:Given>Francisco</vCard:Given>
                       </rdf:Description>
                     </vCard:N>
+                  </rdf:Description>
+                </rdf:li>
+                <rdf:li>
+                  <rdf:Description>
+                    <vCard:N>
+                      <rdf:Description>
+                        <vCard:Family>Hayashi</vCard:Family>
+                        <vCard:Given>Kentaro</vCard:Given>
+                      </rdf:Description>
+                    </vCard:N>
+                    <vCard:ORG>
+                      <rdf:Description>
+                        <vCard:Orgname>Institute for Advanced Biosciences, Keio University</vCard:Orgname>
+                      </rdf:Description>
+                    </vCard:ORG>
                   </rdf:Description>
                 </rdf:li>
                 <rdf:li>
@@ -75,21 +77,6 @@
                     </vCard:ORG>
                   </rdf:Description>
                 </rdf:li>
-                <rdf:li>
-                  <rdf:Description>
-                    <vCard:N>
-                      <rdf:Description>
-                        <vCard:Family>Hayashi</vCard:Family>
-                        <vCard:Given>Kentaro</vCard:Given>
-                      </rdf:Description>
-                    </vCard:N>
-                    <vCard:ORG>
-                      <rdf:Description>
-                        <vCard:Orgname>Institute for Advanced Biosciences, Keio University</vCard:Orgname>
-                      </rdf:Description>
-                    </vCard:ORG>
-                  </rdf:Description>
-                </rdf:li>
               </rdf:Bag>
             </dcterms:creator>
             <dcterms:modified>
@@ -99,9 +86,17 @@
             </dcterms:modified>
             <dcterms:modified>
               <rdf:Description>
-                <dcterms:W3CDTF>2024-08-29T11:30:20</dcterms:W3CDTF>
+                <dcterms:W3CDTF>2024-08-29T11:30:20Z</dcterms:W3CDTF>
               </rdf:Description>
             </dcterms:modified>
+            <CopasiMT:isDescribedBy>
+              <rdf:Bag>
+                <rdf:li rdf:resource="http://identifiers.org/mamo/MAMO_0000045"/>
+              </rdf:Bag>
+            </CopasiMT:isDescribedBy>
+            <CopasiMT:isDescribedBy>
+              <rdf:Bag/>
+            </CopasiMT:isDescribedBy>
             <CopasiMT:isPartOf>
               <rdf:Bag>
                 <rdf:li rdf:resource="http://identifiers.org/kegg.pathway/nt06516"/>
@@ -109,12 +104,12 @@
             </CopasiMT:isPartOf>
             <CopasiMT:isVersionOf>
               <rdf:Bag>
-                <rdf:li rdf:resource="http://identifiers.org/efo/0004040"/>
+                <rdf:li rdf:resource="http://identifiers.org/omit/0016968"/>
               </rdf:Bag>
             </CopasiMT:isVersionOf>
             <CopasiMT:isVersionOf>
               <rdf:Bag>
-                <rdf:li rdf:resource="http://identifiers.org/omit/0016968"/>
+                <rdf:li rdf:resource="http://identifiers.org/efo/0004040"/>
               </rdf:Bag>
             </CopasiMT:isVersionOf>
           </rdf:Description>
@@ -124,15 +119,6 @@
         <rdf:Description rdf:about="#COPASI1">
           <dc:creator>
             <rdf:Bag>
-              <rdf:li rdf:parseType="Resource">
-                <vCard:N rdf:parseType="Resource">
-                  <vCard:Family>Ali</vCard:Family>
-                  <vCard:Given>Mushtaq</vCard:Given>
-                </vCard:N>
-                <vCard:ORG rdf:parseType="Resource">
-                  <vCard:Orgname>Karlsruhe Institue for Technology</vCard:Orgname>
-                </vCard:ORG>
-              </rdf:li>
               <rdf:li rdf:parseType="Resource">
                 <vCard:N rdf:parseType="Resource">
                   <vCard:Family>Arriaza Gallardo</vCard:Family>
@@ -146,6 +132,15 @@
                 </vCard:N>
                 <vCard:ORG rdf:parseType="Resource">
                   <vCard:Orgname>Institute for Advanced Biosciences, Keio University</vCard:Orgname>
+                </vCard:ORG>
+              </rdf:li>
+              <rdf:li rdf:parseType="Resource">
+                <vCard:N rdf:parseType="Resource">
+                  <vCard:Family>Ali</vCard:Family>
+                  <vCard:Given>Mushtaq</vCard:Given>
+                </vCard:N>
+                <vCard:ORG rdf:parseType="Resource">
+                  <vCard:Orgname>Karlsruhe Institue for Technology</vCard:Orgname>
                 </vCard:ORG>
               </rdf:li>
               <rdf:li rdf:parseType="Resource">
@@ -175,19 +170,14 @@
           </bqbiol:isPartOf>
           <bqbiol:isVersionOf>
             <rdf:Bag>
-              <rdf:li rdf:resource="http://identifiers.org/omit/0016968"/>
+              <rdf:li rdf:resource="http://identifiers.org/efo/0004040"/>
             </rdf:Bag>
           </bqbiol:isVersionOf>
           <bqbiol:isVersionOf>
             <rdf:Bag>
-              <rdf:li rdf:resource="http://identifiers.org/efo/0004040"/>
+              <rdf:li rdf:resource="http://identifiers.org/omit/0016968"/>
             </rdf:Bag>
           </bqbiol:isVersionOf>
-          <bqbiol:isDescribedBy>
-            <rdf:Bag>
-              <rdf:li rdf:resource="http://identifiers.org/mamo/MAMO_0000045"/>
-            </rdf:Bag>
-          </bqbiol:isDescribedBy>
           <bqbiol:isDescribedBy>
             <rdf:Bag>
               <rdf:li rdf:resource="http://identifiers.org/pubmed/24199619"/>
@@ -589,16 +579,26 @@
       <species metaid="COPASI13" id="species_24" name="AP1" compartment="compartment_1" initialConcentration="0" boundaryCondition="false" constant="false">
         <annotation>
           <copasi:COPASI xmlns:copasi="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
               <rdf:Description rdf:about="#COPASI13">
                 <dcterms:created>
                   <rdf:Description>
                     <dcterms:W3CDTF>2013-07-28T17:47:42Z</dcterms:W3CDTF>
                   </rdf:Description>
                 </dcterms:created>
+                <CopasiMT:isVersionOf rdf:resource="urn:miriam:interpro:IPR000837"/>
               </rdf:Description>
             </rdf:RDF>
           </copasi:COPASI>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#COPASI13">
+              <bqbiol:isVersionOf>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/interpro/IPR000837"/>
+                </rdf:Bag>
+              </bqbiol:isVersionOf>
+            </rdf:Description>
+          </rdf:RDF>
         </annotation>
       </species>
       <species metaid="COPASI14" id="species_25" name="G1promoter" compartment="compartment_1" initialConcentration="0" boundaryCondition="false" constant="false">
