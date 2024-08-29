@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- generated with COPASI 4.44 (Build 295) (http://www.copasi.org) at 2024-08-29T09:09:29Z -->
+<!-- generated with COPASI 4.44 (Build 295) (http://www.copasi.org) at 2024-08-29T09:17:31Z -->
 <?oxygen RNGSchema="http://www.copasi.org/static/schema/CopasiML.rng" type="xml"?>
 <COPASI xmlns="http://www.copasi.org/static/schema" versionMajor="4" versionMinor="44" versionDevel="295" copasiSourcesModified="0">
   <ListOfFunctions>
@@ -32,10 +32,12 @@ Reaction scheme where the products are created from the reactants and the change
     <MiriamAnnotation>
 <rdf:RDF
    xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#"
+   xmlns:bqmodel="http://biomodels.net/model-qualifiers/"
    xmlns:dcterms="http://purl.org/dc/terms/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#">
   <rdf:Description rdf:about="#Model_0">
+    <bqmodel:isDescribedBy rdf:resource="urn:miriam:mamo:MAMO_0000045"/>
     <dcterms:bibliographicCitation>
       <rdf:Description>
         <CopasiMT:isDescribedBy rdf:resource="urn:miriam:pubmed:24199619"/>
@@ -101,6 +103,7 @@ Reaction scheme where the products are created from the reactants and the change
         </vCard:ORG>
       </rdf:Description>
     </dcterms:creator>
+    <CopasiMT:isPartOf rdf:resource="urn:miriam:kegg.pathway:nt06516"/>
     <CopasiMT:isVersionOf rdf:resource="urn:miriam:efo:0004040"/>
     <CopasiMT:isVersionOf rdf:resource="urn:miriam:omit:0016968"/>
   </rdf:Description>
@@ -707,7 +710,9 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </Metabolite>
       <Metabolite key="Metabolite_10" name="X10" simulationType="reactions" compartment="Compartment_2" addNoise="false">
         <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <rdf:Description rdf:about="#Metabolite_10">
     <dcterms:created>
       <rdf:Description>
@@ -716,6 +721,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     </dcterms:created>
   </rdf:Description>
 </rdf:RDF>
+
         </MiriamAnnotation>
       </Metabolite>
       <Metabolite key="Metabolite_9" name="X11" simulationType="reactions" compartment="Compartment_2" addNoise="false">
