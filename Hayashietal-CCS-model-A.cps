@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- generated with COPASI 4.44 (Build 295) (http://www.copasi.org) at 2024-08-29T11:40:29Z -->
+<!-- generated with COPASI 4.44 (Build 295) (http://www.copasi.org) at 2024-08-29T11:52:29Z -->
 <?oxygen RNGSchema="http://www.copasi.org/static/schema/CopasiML.rng" type="xml"?>
 <COPASI xmlns="http://www.copasi.org/static/schema" versionMajor="4" versionMinor="44" versionDevel="295" copasiSourcesModified="0">
   <ListOfFunctions>
@@ -51,6 +51,21 @@ Reaction scheme where the products are created from the reactants and the change
       </rdf:Description>
     </dcterms:created>
     <dcterms:creator>
+      <rdf:Description>
+        <vCard:N>
+          <rdf:Description>
+            <vCard:Family>Selvarajoo</vCard:Family>
+            <vCard:Given>Kumar</vCard:Given>
+          </rdf:Description>
+        </vCard:N>
+        <vCard:ORG>
+          <rdf:Description>
+            <vCard:Orgname>Institute for Advanced Biosciences, Keio University</vCard:Orgname>
+          </rdf:Description>
+        </vCard:ORG>
+      </rdf:Description>
+    </dcterms:creator>
+    <dcterms:creator>
       <rdf:Bag>
         <rdf:li>
           <rdf:Description>
@@ -66,8 +81,8 @@ Reaction scheme where the products are created from the reactants and the change
           <rdf:Description>
             <vCard:N>
               <rdf:Description>
-                <vCard:Family>Hayashi</vCard:Family>
-                <vCard:Given>Kentaro</vCard:Given>
+                <vCard:Family>Piras</vCard:Family>
+                <vCard:Given>Vincent</vCard:Given>
               </rdf:Description>
             </vCard:N>
             <vCard:ORG>
@@ -576,8 +591,14 @@ Reaction scheme where the products are created from the reactants and the change
         <MiriamAnnotation>
 <rdf:RDF
    xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#"
+   xmlns:dcterms="http://purl.org/dc/terms/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <rdf:Description rdf:about="#Metabolite_22">
+    <dcterms:modified>
+      <rdf:Description>
+        <dcterms:W3CDTF>2024-08-29T13:49:44</dcterms:W3CDTF>
+      </rdf:Description>
+    </dcterms:modified>
     <CopasiMT:isVersionOf>
       <rdf:Bag>
         <rdf:li rdf:resource="http://identifiers.org/omit/0023999"/>
