@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Created by COPASI version 4.44 (Build 295) on 2024-08-29 11:52 with libSBML version 5.20.0. -->
+<!-- Created by COPASI version 4.44 (Build 295) on 2024-08-29 11:49 with libSBML version 5.20.0. -->
 <sbml xmlns="http://www.sbml.org/sbml/level2/version4" level="2" version="4">
   <model metaid="COPASI1" id="Model_1" name="Model A - A systems biology approach to suppress TNF-induced proinflammatory gene expressions">
     <annotation>
@@ -17,7 +17,7 @@
             </dcterms:bibliographicCitation>
             <dcterms:created>
               <rdf:Description>
-                <dcterms:W3CDTF>2013-05-27T11:09:50Z</dcterms:W3CDTF>
+                <dcterms:W3CDTF>2013-03-27T12:09:50Z</dcterms:W3CDTF>
               </rdf:Description>
             </dcterms:created>
             <dcterms:creator>
@@ -94,9 +94,6 @@
                 <rdf:li rdf:resource="http://identifiers.org/mamo/MAMO_0000045"/>
               </rdf:Bag>
             </CopasiMT:isDescribedBy>
-            <CopasiMT:isDescribedBy>
-              <rdf:Bag/>
-            </CopasiMT:isDescribedBy>
             <CopasiMT:isPartOf>
               <rdf:Bag>
                 <rdf:li rdf:resource="http://identifiers.org/kegg.pathway/nt06516"/>
@@ -121,21 +118,6 @@
             <rdf:Bag>
               <rdf:li rdf:parseType="Resource">
                 <vCard:N rdf:parseType="Resource">
-                  <vCard:Family>Arriaza Gallardo</vCard:Family>
-                  <vCard:Given>Francisco</vCard:Given>
-                </vCard:N>
-              </rdf:li>
-              <rdf:li rdf:parseType="Resource">
-                <vCard:N rdf:parseType="Resource">
-                  <vCard:Family>Hayashi</vCard:Family>
-                  <vCard:Given>Kentaro</vCard:Given>
-                </vCard:N>
-                <vCard:ORG rdf:parseType="Resource">
-                  <vCard:Orgname>Institute for Advanced Biosciences, Keio University</vCard:Orgname>
-                </vCard:ORG>
-              </rdf:li>
-              <rdf:li rdf:parseType="Resource">
-                <vCard:N rdf:parseType="Resource">
                   <vCard:Family>Ali</vCard:Family>
                   <vCard:Given>Mushtaq</vCard:Given>
                 </vCard:N>
@@ -152,16 +134,37 @@
                   <vCard:Orgname>Freie Universitaet Berlin</vCard:Orgname>
                 </vCard:ORG>
               </rdf:li>
+              <rdf:li rdf:parseType="Resource">
+                <vCard:N rdf:parseType="Resource">
+                  <vCard:Family>Hayashi</vCard:Family>
+                  <vCard:Given>Kentaro</vCard:Given>
+                </vCard:N>
+                <vCard:ORG rdf:parseType="Resource">
+                  <vCard:Orgname>Institute for Advanced Biosciences, Keio University</vCard:Orgname>
+                </vCard:ORG>
+              </rdf:li>
+              <rdf:li rdf:parseType="Resource">
+                <vCard:N rdf:parseType="Resource">
+                  <vCard:Family>Arriaza Gallardo</vCard:Family>
+                  <vCard:Given>Francisco</vCard:Given>
+                </vCard:N>
+              </rdf:li>
+              <rdf:li rdf:parseType="Resource">
+                <vCard:N rdf:parseType="Resource">
+                  <vCard:Family>Arriaza Gallardo</vCard:Family>
+                  <vCard:Given>Francisco</vCard:Given>
+                </vCard:N>
+              </rdf:li>
             </rdf:Bag>
           </dc:creator>
           <dcterms:created rdf:parseType="Resource">
-            <dcterms:W3CDTF>2013-05-27T11:09:50Z</dcterms:W3CDTF>
+            <dcterms:W3CDTF>2013-03-27T12:09:50Z</dcterms:W3CDTF>
           </dcterms:created>
           <dcterms:modified rdf:parseType="Resource">
-            <dcterms:W3CDTF>2024-08-29T11:25:38Z</dcterms:W3CDTF>
+            <dcterms:W3CDTF>2024-08-29T11:30:20Z</dcterms:W3CDTF>
           </dcterms:modified>
           <dcterms:modified rdf:parseType="Resource">
-            <dcterms:W3CDTF>2024-08-29T11:30:20Z</dcterms:W3CDTF>
+            <dcterms:W3CDTF>2024-08-29T11:25:38Z</dcterms:W3CDTF>
           </dcterms:modified>
           <bqbiol:isPartOf>
             <rdf:Bag>
@@ -264,31 +267,51 @@
       <species metaid="COPASI5" id="species_3" name="TNFR1" compartment="compartment_1" initialConcentration="1" boundaryCondition="false" constant="false">
         <annotation>
           <copasi:COPASI xmlns:copasi="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
               <rdf:Description rdf:about="#COPASI5">
                 <dcterms:created>
                   <rdf:Description>
                     <dcterms:W3CDTF>2013-07-28T17:05:32Z</dcterms:W3CDTF>
                   </rdf:Description>
                 </dcterms:created>
+                <CopasiMT:isVersionOf rdf:resource="urn:miriam:mim:191190"/>
               </rdf:Description>
             </rdf:RDF>
           </copasi:COPASI>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#COPASI5">
+              <bqbiol:isVersionOf>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/mim/191190"/>
+                </rdf:Bag>
+              </bqbiol:isVersionOf>
+            </rdf:Description>
+          </rdf:RDF>
         </annotation>
       </species>
       <species metaid="COPASI107" id="species_4" name="TRADD" compartment="compartment_1" initialConcentration="0" boundaryCondition="false" constant="false">
         <annotation>
           <copasi:COPASI xmlns:copasi="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
               <rdf:Description rdf:about="#COPASI107">
                 <dcterms:created>
                   <rdf:Description>
                     <dcterms:W3CDTF>2013-11-06T08:13:56Z</dcterms:W3CDTF>
                   </rdf:Description>
                 </dcterms:created>
+                <CopasiMT:isVersionOf rdf:resource="urn:miriam:omit:0036899"/>
               </rdf:Description>
             </rdf:RDF>
           </copasi:COPASI>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#COPASI107">
+              <bqbiol:isVersionOf>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/omit/0036899"/>
+                </rdf:Bag>
+              </bqbiol:isVersionOf>
+            </rdf:Description>
+          </rdf:RDF>
         </annotation>
       </species>
       <species metaid="COPASI108" id="species_5" name="cIAP" compartment="compartment_1" initialConcentration="0" boundaryCondition="false" constant="false">
@@ -309,31 +332,51 @@
       <species metaid="COPASI6" id="species_6" name="TRAF6" compartment="compartment_1" initialConcentration="0" boundaryCondition="false" constant="false">
         <annotation>
           <copasi:COPASI xmlns:copasi="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
               <rdf:Description rdf:about="#COPASI6">
                 <dcterms:created>
                   <rdf:Description>
                     <dcterms:W3CDTF>2013-07-28T17:21:26Z</dcterms:W3CDTF>
                   </rdf:Description>
                 </dcterms:created>
+                <CopasiMT:isVersionOf rdf:resource="urn:miriam:omit:0035862"/>
               </rdf:Description>
             </rdf:RDF>
           </copasi:COPASI>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#COPASI6">
+              <bqbiol:isVersionOf>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/omit/0035862"/>
+                </rdf:Bag>
+              </bqbiol:isVersionOf>
+            </rdf:Description>
+          </rdf:RDF>
         </annotation>
       </species>
       <species metaid="COPASI109" id="species_7" name="TRAF5" compartment="compartment_1" initialConcentration="0" boundaryCondition="false" constant="false">
         <annotation>
           <copasi:COPASI xmlns:copasi="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
               <rdf:Description rdf:about="#COPASI109">
                 <dcterms:created>
                   <rdf:Description>
                     <dcterms:W3CDTF>2013-11-06T08:14:06Z</dcterms:W3CDTF>
                   </rdf:Description>
                 </dcterms:created>
+                <CopasiMT:isVersionOf rdf:resource="urn:miriam:omit:0035861"/>
               </rdf:Description>
             </rdf:RDF>
           </copasi:COPASI>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#COPASI109">
+              <bqbiol:isVersionOf>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/omit/0035861"/>
+                </rdf:Bag>
+              </bqbiol:isVersionOf>
+            </rdf:Description>
+          </rdf:RDF>
         </annotation>
       </species>
       <species metaid="COPASI110" id="species_8" name="RIP1" compartment="compartment_1" initialConcentration="0" boundaryCondition="false" constant="false">
@@ -354,16 +397,26 @@
       <species metaid="COPASI111" id="species_9" name="TRAF2" compartment="compartment_1" initialConcentration="0" boundaryCondition="false" constant="false">
         <annotation>
           <copasi:COPASI xmlns:copasi="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
               <rdf:Description rdf:about="#COPASI111">
                 <dcterms:created>
                   <rdf:Description>
                     <dcterms:W3CDTF>2013-11-06T08:14:02Z</dcterms:W3CDTF>
                   </rdf:Description>
                 </dcterms:created>
+                <CopasiMT:isVersionOf rdf:resource="urn:miriam:omit:0035859"/>
               </rdf:Description>
             </rdf:RDF>
           </copasi:COPASI>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#COPASI111">
+              <bqbiol:isVersionOf>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/omit/0035859"/>
+                </rdf:Bag>
+              </bqbiol:isVersionOf>
+            </rdf:Description>
+          </rdf:RDF>
         </annotation>
       </species>
       <species metaid="COPASI7" id="species_10" name="TAK1complex" compartment="compartment_1" initialConcentration="0" boundaryCondition="false" constant="false">
