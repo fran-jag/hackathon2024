@@ -1,16 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Created by COPASI version 4.44 (Build 295) on 2024-08-29 11:27 with libSBML version 5.20.0. -->
+<!-- Created by COPASI version 4.44 (Build 295) on 2024-08-29 11:30 with libSBML version 5.20.0. -->
 <sbml xmlns="http://www.sbml.org/sbml/level2/version4" level="2" version="4">
   <model metaid="COPASI1" id="Model_1" name="Model A - A systems biology approach to suppress TNF-induced proinflammatory gene expressions">
     <annotation>
       <copasi:COPASI xmlns:copasi="http://www.copasi.org/static/sbml">
-        <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:bqmodel="http://biomodels.net/model-qualifiers/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#">
+        <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#">
           <rdf:Description rdf:about="#COPASI1">
-            <bqmodel:isDescribedBy rdf:resource="urn:miriam:mamo:MAMO_0000045"/>
+            <bqmodel:hasInstance>
+              <rdf:Bag>
+                <rdf:li rdf:resource="http://identifiers.org/efo/0004040"/>
+                <rdf:li rdf:resource="http://identifiers.org/kegg.pathway/nt06516"/>
+                <rdf:li rdf:resource="http://identifiers.org/mamo/MAMO_0000045"/>
+                <rdf:li rdf:resource="http://identifiers.org/omit/0016968"/>
+              </rdf:Bag>
+            </bqmodel:hasInstance>
             <dcterms:bibliographicCitation>
-              <rdf:Description>
-                <CopasiMT:isDescribedBy rdf:resource="urn:miriam:pubmed:24199619"/>
-              </rdf:Description>
+              <rdf:Bag>
+                <rdf:li>
+                  <rdf:Description>
+                    <bqbiol:isDescribedBy rdf:resource="http://identifiers.org/mamo/MAMO_0000045"/>
+                  </rdf:Description>
+                </rdf:li>
+                <rdf:li>
+                  <rdf:Description>
+                    <CopasiMT:isDescribedBy rdf:resource="http://identifiers.org/pubmed/24199619"/>
+                  </rdf:Description>
+                </rdf:li>
+              </rdf:Bag>
             </dcterms:bibliographicCitation>
             <dcterms:created>
               <rdf:Description>
@@ -18,68 +34,89 @@
               </rdf:Description>
             </dcterms:created>
             <dcterms:creator>
-              <rdf:Description>
-                <vCard:N>
+              <rdf:Bag>
+                <rdf:li>
                   <rdf:Description>
-                    <vCard:Family>Arriaza Gallardo</vCard:Family>
-                    <vCard:Given>Francisco</vCard:Given>
+                    <vCard:N>
+                      <rdf:Description>
+                        <vCard:Family>Arriaza Gallardo</vCard:Family>
+                        <vCard:Given>Francisco</vCard:Given>
+                      </rdf:Description>
+                    </vCard:N>
                   </rdf:Description>
-                </vCard:N>
-              </rdf:Description>
-            </dcterms:creator>
-            <dcterms:creator>
-              <rdf:Description>
-                <vCard:N>
+                </rdf:li>
+                <rdf:li>
                   <rdf:Description>
-                    <vCard:Family>Hayashi</vCard:Family>
-                    <vCard:Given>Kentaro</vCard:Given>
+                    <vCard:N>
+                      <rdf:Description>
+                        <vCard:Family>Jansen</vCard:Family>
+                        <vCard:Given>Alina</vCard:Given>
+                      </rdf:Description>
+                    </vCard:N>
+                    <vCard:ORG>
+                      <rdf:Description>
+                        <vCard:Orgname>Freie Universitaet Berlin</vCard:Orgname>
+                      </rdf:Description>
+                    </vCard:ORG>
                   </rdf:Description>
-                </vCard:N>
-                <vCard:ORG>
+                </rdf:li>
+                <rdf:li>
                   <rdf:Description>
-                    <vCard:Orgname>Institute for Advanced Biosciences, Keio University</vCard:Orgname>
+                    <vCard:N>
+                      <rdf:Description>
+                        <vCard:Family>Ali</vCard:Family>
+                        <vCard:Given>Mushtaq</vCard:Given>
+                      </rdf:Description>
+                    </vCard:N>
+                    <vCard:ORG>
+                      <rdf:Description>
+                        <vCard:Orgname>Karlsruhe Institue for Technology</vCard:Orgname>
+                      </rdf:Description>
+                    </vCard:ORG>
                   </rdf:Description>
-                </vCard:ORG>
-              </rdf:Description>
-            </dcterms:creator>
-            <dcterms:creator>
-              <rdf:Description>
-                <vCard:N>
+                </rdf:li>
+                <rdf:li>
                   <rdf:Description>
-                    <vCard:Family>Ali</vCard:Family>
-                    <vCard:Given>Mushtaq</vCard:Given>
+                    <vCard:N>
+                      <rdf:Description>
+                        <vCard:Family>Hayashi</vCard:Family>
+                        <vCard:Given>Kentaro</vCard:Given>
+                      </rdf:Description>
+                    </vCard:N>
+                    <vCard:ORG>
+                      <rdf:Description>
+                        <vCard:Orgname>Institute for Advanced Biosciences, Keio University</vCard:Orgname>
+                      </rdf:Description>
+                    </vCard:ORG>
                   </rdf:Description>
-                </vCard:N>
-                <vCard:ORG>
-                  <rdf:Description>
-                    <vCard:Orgname>Karlsruhe Institue for Technology</vCard:Orgname>
-                  </rdf:Description>
-                </vCard:ORG>
-              </rdf:Description>
-            </dcterms:creator>
-            <dcterms:creator>
-              <rdf:Description>
-                <vCard:N>
-                  <rdf:Description>
-                    <vCard:Family>Jansen</vCard:Family>
-                    <vCard:Given>Alina</vCard:Given>
-                  </rdf:Description>
-                </vCard:N>
-                <vCard:ORG>
-                  <rdf:Description>
-                    <vCard:Orgname>Freie Universitaet Berlin</vCard:Orgname>
-                  </rdf:Description>
-                </vCard:ORG>
-              </rdf:Description>
+                </rdf:li>
+              </rdf:Bag>
             </dcterms:creator>
             <dcterms:modified>
               <rdf:Description>
-                <dcterms:W3CDTF>2024-08-29T11:25:38</dcterms:W3CDTF>
+                <dcterms:W3CDTF>2024-08-29T11:25:38Z</dcterms:W3CDTF>
               </rdf:Description>
             </dcterms:modified>
-            <CopasiMT:isPartOf rdf:resource="urn:miriam:kegg.pathway:nt06516"/>
-            <CopasiMT:isVersionOf rdf:resource="urn:miriam:efo:0004040"/>
-            <CopasiMT:isVersionOf rdf:resource="urn:miriam:omit:0016968"/>
+            <dcterms:modified>
+              <rdf:Description>
+                <dcterms:W3CDTF>2024-08-29T11:30:20</dcterms:W3CDTF>
+              </rdf:Description>
+            </dcterms:modified>
+            <CopasiMT:isPartOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="http://identifiers.org/kegg.pathway/nt06516"/>
+              </rdf:Bag>
+            </CopasiMT:isPartOf>
+            <CopasiMT:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="http://identifiers.org/efo/0004040"/>
+              </rdf:Bag>
+            </CopasiMT:isVersionOf>
+            <CopasiMT:isVersionOf>
+              <rdf:Bag>
+                <rdf:li rdf:resource="http://identifiers.org/omit/0016968"/>
+              </rdf:Bag>
+            </CopasiMT:isVersionOf>
           </rdf:Description>
         </rdf:RDF>
       </copasi:COPASI>
@@ -89,21 +126,18 @@
             <rdf:Bag>
               <rdf:li rdf:parseType="Resource">
                 <vCard:N rdf:parseType="Resource">
-                  <vCard:Family>Jansen</vCard:Family>
-                  <vCard:Given>Alina</vCard:Given>
-                </vCard:N>
-                <vCard:ORG rdf:parseType="Resource">
-                  <vCard:Orgname>Freie Universitaet Berlin</vCard:Orgname>
-                </vCard:ORG>
-              </rdf:li>
-              <rdf:li rdf:parseType="Resource">
-                <vCard:N rdf:parseType="Resource">
                   <vCard:Family>Ali</vCard:Family>
                   <vCard:Given>Mushtaq</vCard:Given>
                 </vCard:N>
                 <vCard:ORG rdf:parseType="Resource">
                   <vCard:Orgname>Karlsruhe Institue for Technology</vCard:Orgname>
                 </vCard:ORG>
+              </rdf:li>
+              <rdf:li rdf:parseType="Resource">
+                <vCard:N rdf:parseType="Resource">
+                  <vCard:Family>Arriaza Gallardo</vCard:Family>
+                  <vCard:Given>Francisco</vCard:Given>
+                </vCard:N>
               </rdf:li>
               <rdf:li rdf:parseType="Resource">
                 <vCard:N rdf:parseType="Resource">
@@ -116,9 +150,12 @@
               </rdf:li>
               <rdf:li rdf:parseType="Resource">
                 <vCard:N rdf:parseType="Resource">
-                  <vCard:Family>Arriaza Gallardo</vCard:Family>
-                  <vCard:Given>Francisco</vCard:Given>
+                  <vCard:Family>Jansen</vCard:Family>
+                  <vCard:Given>Alina</vCard:Given>
                 </vCard:N>
+                <vCard:ORG rdf:parseType="Resource">
+                  <vCard:Orgname>Freie Universitaet Berlin</vCard:Orgname>
+                </vCard:ORG>
               </rdf:li>
             </rdf:Bag>
           </dc:creator>
@@ -128,6 +165,9 @@
           <dcterms:modified rdf:parseType="Resource">
             <dcterms:W3CDTF>2024-08-29T11:25:38Z</dcterms:W3CDTF>
           </dcterms:modified>
+          <dcterms:modified rdf:parseType="Resource">
+            <dcterms:W3CDTF>2024-08-29T11:30:20Z</dcterms:W3CDTF>
+          </dcterms:modified>
           <bqbiol:isPartOf>
             <rdf:Bag>
               <rdf:li rdf:resource="http://identifiers.org/kegg.pathway/nt06516"/>
@@ -135,25 +175,21 @@
           </bqbiol:isPartOf>
           <bqbiol:isVersionOf>
             <rdf:Bag>
-              <rdf:li rdf:resource="http://identifiers.org/efo/0004040"/>
+              <rdf:li rdf:resource="http://identifiers.org/omit/0016968"/>
             </rdf:Bag>
           </bqbiol:isVersionOf>
           <bqbiol:isVersionOf>
             <rdf:Bag>
-              <rdf:li rdf:resource="http://identifiers.org/omit/0016968"/>
+              <rdf:li rdf:resource="http://identifiers.org/efo/0004040"/>
             </rdf:Bag>
           </bqbiol:isVersionOf>
-          <bqmodel:hasInstance>
-            <rdf:Bag>
-              <rdf:li rdf:resource="http://identifiers.org/kegg.pathway/nt06516"/>
-              <rdf:li rdf:resource="http://identifiers.org/efo/0004040"/>
-              <rdf:li rdf:resource="http://identifiers.org/omit/0016968"/>
-              <rdf:li rdf:resource="http://identifiers.org/mamo/MAMO_0000045"/>
-            </rdf:Bag>
-          </bqmodel:hasInstance>
           <bqbiol:isDescribedBy>
             <rdf:Bag>
               <rdf:li rdf:resource="http://identifiers.org/mamo/MAMO_0000045"/>
+            </rdf:Bag>
+          </bqbiol:isDescribedBy>
+          <bqbiol:isDescribedBy>
+            <rdf:Bag>
               <rdf:li rdf:resource="http://identifiers.org/pubmed/24199619"/>
             </rdf:Bag>
           </bqbiol:isDescribedBy>
