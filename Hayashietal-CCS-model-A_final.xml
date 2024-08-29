@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Created by COPASI version 4.44 (Build 295) on 2024-08-29 13:39 with libSBML version 5.20.0. -->
+<!-- Created by COPASI version 4.44 (Build 295) on 2024-08-29 13:40 with libSBML version 5.20.0. -->
 <sbml xmlns="http://www.sbml.org/sbml/level2/version4" level="2" version="4">
   <model metaid="COPASI1" id="Model_1" name="Model A - A systems biology approach to suppress TNF-induced proinflammatory gene expressions_1">
     <annotation>
@@ -22,16 +22,6 @@
             </dcterms:created>
             <dcterms:creator>
               <rdf:Bag>
-                <rdf:li>
-                  <rdf:Description>
-                    <vCard:N>
-                      <rdf:Description>
-                        <vCard:Family>Arriaza Gallardo</vCard:Family>
-                        <vCard:Given>Francisco</vCard:Given>
-                      </rdf:Description>
-                    </vCard:N>
-                  </rdf:Description>
-                </rdf:li>
                 <rdf:li>
                   <rdf:Description>
                     <vCard:N>
@@ -134,27 +124,12 @@
               </rdf:li>
               <rdf:li rdf:parseType="Resource">
                 <vCard:N rdf:parseType="Resource">
-                  <vCard:Family>Hayashi</vCard:Family>
-                  <vCard:Given>Kentaro</vCard:Given>
-                </vCard:N>
-                <vCard:ORG rdf:parseType="Resource">
-                  <vCard:Orgname>Institute for Advanced Biosciences, Keio University</vCard:Orgname>
-                </vCard:ORG>
-              </rdf:li>
-              <rdf:li rdf:parseType="Resource">
-                <vCard:N rdf:parseType="Resource">
                   <vCard:Family>Jansen</vCard:Family>
                   <vCard:Given>Alina</vCard:Given>
                 </vCard:N>
                 <vCard:ORG rdf:parseType="Resource">
                   <vCard:Orgname>Freie Universitaet Berlin</vCard:Orgname>
                 </vCard:ORG>
-              </rdf:li>
-              <rdf:li rdf:parseType="Resource">
-                <vCard:N rdf:parseType="Resource">
-                  <vCard:Family>Arriaza Gallardo</vCard:Family>
-                  <vCard:Given>Francisco</vCard:Given>
-                </vCard:N>
               </rdf:li>
               <rdf:li rdf:parseType="Resource">
                 <vCard:N rdf:parseType="Resource">
@@ -165,19 +140,28 @@
                   <vCard:Orgname>Karlsruhe Institue for Technology</vCard:Orgname>
                 </vCard:ORG>
               </rdf:li>
+              <rdf:li rdf:parseType="Resource">
+                <vCard:N rdf:parseType="Resource">
+                  <vCard:Family>Hayashi</vCard:Family>
+                  <vCard:Given>Kentaro</vCard:Given>
+                </vCard:N>
+                <vCard:ORG rdf:parseType="Resource">
+                  <vCard:Orgname>Institute for Advanced Biosciences, Keio University</vCard:Orgname>
+                </vCard:ORG>
+              </rdf:li>
             </rdf:Bag>
           </dc:creator>
           <dcterms:created rdf:parseType="Resource">
             <dcterms:W3CDTF>2013-03-27T12:09:50Z</dcterms:W3CDTF>
           </dcterms:created>
           <dcterms:modified rdf:parseType="Resource">
+            <dcterms:W3CDTF>2024-08-29T11:30:20Z</dcterms:W3CDTF>
+          </dcterms:modified>
+          <dcterms:modified rdf:parseType="Resource">
             <dcterms:W3CDTF>2024-08-29T13:38:54Z</dcterms:W3CDTF>
           </dcterms:modified>
           <dcterms:modified rdf:parseType="Resource">
             <dcterms:W3CDTF>2024-08-29T11:25:38Z</dcterms:W3CDTF>
-          </dcterms:modified>
-          <dcterms:modified rdf:parseType="Resource">
-            <dcterms:W3CDTF>2024-08-29T11:30:20Z</dcterms:W3CDTF>
           </dcterms:modified>
           <bqbiol:isPartOf>
             <rdf:Bag>
@@ -497,17 +481,17 @@
             <rdf:Description rdf:about="#COPASI7">
               <bqbiol:isVersionOf>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/mim/602614"/>
-                </rdf:Bag>
-              </bqbiol:isVersionOf>
-              <bqbiol:isVersionOf>
-                <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/mim/602615"/>
                 </rdf:Bag>
               </bqbiol:isVersionOf>
               <bqbiol:isVersionOf>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/mim/605101"/>
+                </rdf:Bag>
+              </bqbiol:isVersionOf>
+              <bqbiol:isVersionOf>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/mim/602614"/>
                 </rdf:Bag>
               </bqbiol:isVersionOf>
             </rdf:Description>
@@ -541,12 +525,12 @@
             <rdf:Description rdf:about="#COPASI112">
               <bqbiol:isVersionOf>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/uniprot/Q9WUB0"/>
+                  <rdf:li rdf:resource="http://identifiers.org/mim/612487"/>
                 </rdf:Bag>
               </bqbiol:isVersionOf>
               <bqbiol:isVersionOf>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/mim/612487"/>
+                  <rdf:li rdf:resource="http://identifiers.org/uniprot/Q9WUB0"/>
                 </rdf:Bag>
               </bqbiol:isVersionOf>
               <bqbiol:isVersionOf>
@@ -605,12 +589,12 @@
             <rdf:Description rdf:about="#COPASI114">
               <bqbiol:isVersionOf>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/mim/601263"/>
+                  <rdf:li rdf:resource="http://identifiers.org/mim/176872"/>
                 </rdf:Bag>
               </bqbiol:isVersionOf>
               <bqbiol:isVersionOf>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/mim/176872"/>
+                  <rdf:li rdf:resource="http://identifiers.org/mim/601263"/>
                 </rdf:Bag>
               </bqbiol:isVersionOf>
             </rdf:Description>
@@ -639,12 +623,12 @@
             <rdf:Description rdf:about="#COPASI8">
               <bqbiol:isVersionOf>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/mim/601335"/>
+                  <rdf:li rdf:resource="http://identifiers.org/mim/603014"/>
                 </rdf:Bag>
               </bqbiol:isVersionOf>
               <bqbiol:isVersionOf>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/mim/603014"/>
+                  <rdf:li rdf:resource="http://identifiers.org/mim/601335"/>
                 </rdf:Bag>
               </bqbiol:isVersionOf>
             </rdf:Description>
@@ -673,12 +657,12 @@
             <rdf:Description rdf:about="#COPASI9">
               <bqbiol:isVersionOf>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/mim/602315"/>
+                  <rdf:li rdf:resource="http://identifiers.org/mim/601254"/>
                 </rdf:Bag>
               </bqbiol:isVersionOf>
               <bqbiol:isVersionOf>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/mim/601254"/>
+                  <rdf:li rdf:resource="http://identifiers.org/mim/602315"/>
                 </rdf:Bag>
               </bqbiol:isVersionOf>
             </rdf:Description>
@@ -808,12 +792,12 @@
             <rdf:Description rdf:about="#COPASI11">
               <bqbiol:isVersionOf>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/uniprot/Q00653"/>
+                  <rdf:li rdf:resource="http://identifiers.org/uniprot/P19838"/>
                 </rdf:Bag>
               </bqbiol:isVersionOf>
               <bqbiol:isVersionOf>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/uniprot/P19838"/>
+                  <rdf:li rdf:resource="http://identifiers.org/uniprot/Q00653"/>
                 </rdf:Bag>
               </bqbiol:isVersionOf>
             </rdf:Description>
@@ -1336,6 +1320,13 @@
       </species>
       <species metaid="COPASI0" id="species_42" name="X6" compartment="compartment_1" initialConcentration="0" boundaryCondition="false" constant="false">
         <annotation>
+          <copasi:COPASI xmlns:copasi="http://www.copasi.org/static/sbml">
+            <rdf:RDF xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+              <rdf:Description rdf:about="#COPASI0">
+                <bqbiol:hasProperty rdf:resource="urn:miriam:chebi:CHEBI:64297"/>
+              </rdf:Description>
+            </rdf:RDF>
+          </copasi:COPASI>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#COPASI0">
               <bqbiol:hasProperty>
@@ -1345,13 +1336,6 @@
               </bqbiol:hasProperty>
             </rdf:Description>
           </rdf:RDF>
-          <copasi:COPASI xmlns:copasi="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-              <rdf:Description rdf:about="#COPASI0">
-                <bqbiol:hasProperty rdf:resource="urn:miriam:chebi:CHEBI:64297"/>
-              </rdf:Description>
-            </rdf:RDF>
-          </copasi:COPASI>
         </annotation>
       </species>
       <species metaid="COPASI31" id="species_43" name="X7" compartment="compartment_1" initialConcentration="0" boundaryCondition="false" constant="false">

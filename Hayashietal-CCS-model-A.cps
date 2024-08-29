@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- generated with COPASI 4.44 (Build 295) (http://www.copasi.org) at 2024-08-29T11:38:55Z -->
+<!-- generated with COPASI 4.44 (Build 295) (http://www.copasi.org) at 2024-08-29T11:40:29Z -->
 <?oxygen RNGSchema="http://www.copasi.org/static/schema/CopasiML.rng" type="xml"?>
 <COPASI xmlns="http://www.copasi.org/static/schema" versionMajor="4" versionMinor="44" versionDevel="295" copasiSourcesModified="0">
   <ListOfFunctions>
@@ -52,16 +52,6 @@ Reaction scheme where the products are created from the reactants and the change
     </dcterms:created>
     <dcterms:creator>
       <rdf:Bag>
-        <rdf:li>
-          <rdf:Description>
-            <vCard:N>
-              <rdf:Description>
-                <vCard:Family>Arriaza Gallardo</vCard:Family>
-                <vCard:Given>Francisco</vCard:Given>
-              </rdf:Description>
-            </vCard:N>
-          </rdf:Description>
-        </rdf:li>
         <rdf:li>
           <rdf:Description>
             <vCard:N>
@@ -4537,7 +4527,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   </ListOfPlots>
   <GUI>
   </GUI>
-  <SBMLReference file="Hayashietal-CCS-model-A.xml">
+  <SBMLReference file="Hayashietal-CCS-model-A_final.xml">
     <SBMLMap SBMLid="compartment_1" COPASIkey="Compartment_0"/>
     <SBMLMap SBMLid="parameter_1" COPASIkey="ModelValue_0"/>
     <SBMLMap SBMLid="parameter_2" COPASIkey="ModelValue_1"/>
