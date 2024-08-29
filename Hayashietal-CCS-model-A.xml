@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Created by COPASI version 4.44 (Build 295) on 2024-08-29 12:17 with libSBML version 5.20.0. -->
+<!-- Created by COPASI version 4.44 (Build 295) on 2024-08-29 12:18 with libSBML version 5.20.0. -->
 <sbml xmlns="http://www.sbml.org/sbml/level2/version4" level="2" version="4">
   <model metaid="COPASI1" id="Model_1" name="Model A - A systems biology approach to suppress TNF-induced proinflammatory gene expressions_1">
     <annotation>
