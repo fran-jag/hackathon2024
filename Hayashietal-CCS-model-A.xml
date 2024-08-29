@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Created by COPASI version 4.44 (Build 295) on 2024-08-29 11:49 with libSBML version 5.20.0. -->
+<!-- Created by COPASI version 4.44 (Build 295) on 2024-08-29 12:15 with libSBML version 5.20.0. -->
 <sbml xmlns="http://www.sbml.org/sbml/level2/version4" level="2" version="4">
   <model metaid="COPASI1" id="Model_1" name="Model A - A systems biology approach to suppress TNF-induced proinflammatory gene expressions">
     <annotation>
@@ -118,11 +118,11 @@
             <rdf:Bag>
               <rdf:li rdf:parseType="Resource">
                 <vCard:N rdf:parseType="Resource">
-                  <vCard:Family>Ali</vCard:Family>
-                  <vCard:Given>Mushtaq</vCard:Given>
+                  <vCard:Family>Hayashi</vCard:Family>
+                  <vCard:Given>Kentaro</vCard:Given>
                 </vCard:N>
                 <vCard:ORG rdf:parseType="Resource">
-                  <vCard:Orgname>Karlsruhe Institue for Technology</vCard:Orgname>
+                  <vCard:Orgname>Institute for Advanced Biosciences, Keio University</vCard:Orgname>
                 </vCard:ORG>
               </rdf:li>
               <rdf:li rdf:parseType="Resource">
@@ -136,18 +136,18 @@
               </rdf:li>
               <rdf:li rdf:parseType="Resource">
                 <vCard:N rdf:parseType="Resource">
-                  <vCard:Family>Hayashi</vCard:Family>
-                  <vCard:Given>Kentaro</vCard:Given>
-                </vCard:N>
-                <vCard:ORG rdf:parseType="Resource">
-                  <vCard:Orgname>Institute for Advanced Biosciences, Keio University</vCard:Orgname>
-                </vCard:ORG>
-              </rdf:li>
-              <rdf:li rdf:parseType="Resource">
-                <vCard:N rdf:parseType="Resource">
                   <vCard:Family>Arriaza Gallardo</vCard:Family>
                   <vCard:Given>Francisco</vCard:Given>
                 </vCard:N>
+              </rdf:li>
+              <rdf:li rdf:parseType="Resource">
+                <vCard:N rdf:parseType="Resource">
+                  <vCard:Family>Ali</vCard:Family>
+                  <vCard:Given>Mushtaq</vCard:Given>
+                </vCard:N>
+                <vCard:ORG rdf:parseType="Resource">
+                  <vCard:Orgname>Karlsruhe Institue for Technology</vCard:Orgname>
+                </vCard:ORG>
               </rdf:li>
             </rdf:Bag>
           </dc:creator>
@@ -155,10 +155,10 @@
             <dcterms:W3CDTF>2013-03-27T12:09:50Z</dcterms:W3CDTF>
           </dcterms:created>
           <dcterms:modified rdf:parseType="Resource">
-            <dcterms:W3CDTF>2024-08-29T11:30:20Z</dcterms:W3CDTF>
+            <dcterms:W3CDTF>2024-08-29T11:25:38Z</dcterms:W3CDTF>
           </dcterms:modified>
           <dcterms:modified rdf:parseType="Resource">
-            <dcterms:W3CDTF>2024-08-29T11:25:38Z</dcterms:W3CDTF>
+            <dcterms:W3CDTF>2024-08-29T11:30:20Z</dcterms:W3CDTF>
           </dcterms:modified>
           <bqbiol:isPartOf>
             <rdf:Bag>
@@ -376,16 +376,26 @@
       <species metaid="COPASI110" id="species_8" name="RIP1" compartment="compartment_1" initialConcentration="0" boundaryCondition="false" constant="false">
         <annotation>
           <copasi:COPASI xmlns:copasi="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
               <rdf:Description rdf:about="#COPASI110">
                 <dcterms:created>
                   <rdf:Description>
                     <dcterms:W3CDTF>2013-11-06T08:13:25Z</dcterms:W3CDTF>
                   </rdf:Description>
                 </dcterms:created>
+                <CopasiMT:isVersionOf rdf:resource="urn:miriam:mim:603453"/>
               </rdf:Description>
             </rdf:RDF>
           </copasi:COPASI>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#COPASI110">
+              <bqbiol:isVersionOf>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/mim/603453"/>
+                </rdf:Bag>
+              </bqbiol:isVersionOf>
+            </rdf:Description>
+          </rdf:RDF>
         </annotation>
       </species>
       <species metaid="COPASI111" id="species_9" name="TRAF2" compartment="compartment_1" initialConcentration="0" boundaryCondition="false" constant="false">
@@ -416,16 +426,38 @@
       <species metaid="COPASI7" id="species_10" name="TAK1complex" compartment="compartment_1" initialConcentration="0" boundaryCondition="false" constant="false">
         <annotation>
           <copasi:COPASI xmlns:copasi="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
               <rdf:Description rdf:about="#COPASI7">
                 <dcterms:created>
                   <rdf:Description>
                     <dcterms:W3CDTF>2013-08-06T17:43:59Z</dcterms:W3CDTF>
                   </rdf:Description>
                 </dcterms:created>
+                <CopasiMT:isVersionOf rdf:resource="urn:miriam:mim:602614"/>
+                <CopasiMT:isVersionOf rdf:resource="urn:miriam:mim:602615"/>
+                <CopasiMT:isVersionOf rdf:resource="urn:miriam:mim:605101"/>
               </rdf:Description>
             </rdf:RDF>
           </copasi:COPASI>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#COPASI7">
+              <bqbiol:isVersionOf>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/mim/602614"/>
+                </rdf:Bag>
+              </bqbiol:isVersionOf>
+              <bqbiol:isVersionOf>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/mim/602615"/>
+                </rdf:Bag>
+              </bqbiol:isVersionOf>
+              <bqbiol:isVersionOf>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/mim/605101"/>
+                </rdf:Bag>
+              </bqbiol:isVersionOf>
+            </rdf:Description>
+          </rdf:RDF>
         </annotation>
       </species>
       <species metaid="COPASI112" id="species_11" name="LUBAC" compartment="compartment_1" initialConcentration="0" boundaryCondition="false" constant="false">
@@ -446,16 +478,26 @@
       <species metaid="COPASI113" id="species_12" name="SHARPIN" compartment="compartment_1" initialConcentration="0" boundaryCondition="false" constant="false">
         <annotation>
           <copasi:COPASI xmlns:copasi="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
               <rdf:Description rdf:about="#COPASI113">
                 <dcterms:created>
                   <rdf:Description>
                     <dcterms:W3CDTF>2013-11-06T08:13:30Z</dcterms:W3CDTF>
                   </rdf:Description>
                 </dcterms:created>
+                <CopasiMT:isVersionOf rdf:resource="urn:miriam:mim:611885"/>
               </rdf:Description>
             </rdf:RDF>
           </copasi:COPASI>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#COPASI113">
+              <bqbiol:isVersionOf>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/mim/611885"/>
+                </rdf:Bag>
+              </bqbiol:isVersionOf>
+            </rdf:Description>
+          </rdf:RDF>
         </annotation>
       </species>
       <species metaid="COPASI114" id="species_13" name="MKK12" compartment="compartment_1" initialConcentration="0" boundaryCondition="false" constant="false">
@@ -536,16 +578,26 @@
       <species metaid="COPASI116" id="species_18" name="p38c" compartment="compartment_1" initialConcentration="0" boundaryCondition="false" constant="false">
         <annotation>
           <copasi:COPASI xmlns:copasi="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
               <rdf:Description rdf:about="#COPASI116">
                 <dcterms:created>
                   <rdf:Description>
                     <dcterms:W3CDTF>2013-11-06T08:12:27Z</dcterms:W3CDTF>
                   </rdf:Description>
                 </dcterms:created>
+                <CopasiMT:isVersionOf rdf:resource="urn:miriam:mim:602899"/>
               </rdf:Description>
             </rdf:RDF>
           </copasi:COPASI>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#COPASI116">
+              <bqbiol:isVersionOf>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/mim/602899"/>
+                </rdf:Bag>
+              </bqbiol:isVersionOf>
+            </rdf:Description>
+          </rdf:RDF>
         </annotation>
       </species>
       <species metaid="COPASI117" id="species_19" name="IKK" compartment="compartment_1" initialConcentration="0" boundaryCondition="false" constant="false">
@@ -581,16 +633,26 @@
       <species metaid="COPASI118" id="species_21" name="p38n" compartment="compartment_1" initialConcentration="0" boundaryCondition="false" constant="false">
         <annotation>
           <copasi:COPASI xmlns:copasi="http://www.copasi.org/static/sbml">
-            <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <rdf:RDF xmlns:CopasiMT="http://www.copasi.org/RDF/MiriamTerms#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
               <rdf:Description rdf:about="#COPASI118">
                 <dcterms:created>
                   <rdf:Description>
                     <dcterms:W3CDTF>2013-11-06T08:12:27Z</dcterms:W3CDTF>
                   </rdf:Description>
                 </dcterms:created>
+                <CopasiMT:isVersionOf rdf:resource="urn:miriam:mim:602899"/>
               </rdf:Description>
             </rdf:RDF>
           </copasi:COPASI>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#COPASI118">
+              <bqbiol:isVersionOf>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/mim/602899"/>
+                </rdf:Bag>
+              </bqbiol:isVersionOf>
+            </rdf:Description>
+          </rdf:RDF>
         </annotation>
       </species>
       <species metaid="COPASI12" id="species_22" name="JNKn" compartment="compartment_1" initialConcentration="0" boundaryCondition="false" constant="false">
